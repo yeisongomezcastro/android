@@ -1,5 +1,6 @@
 package calendar.com.co.practicaappgranja;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -51,4 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void intent(View view) {
+        Intent intent = new Intent(this,WidgetListView.class);
+        startActivity(intent);
+    }
 }
