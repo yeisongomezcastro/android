@@ -56,4 +56,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,WidgetListView.class);
         startActivity(intent);
     }
+
+    public void customAdapter(View view) {
+        Intent intent = new Intent(this,CustomAdapter.class);
+        startActivity(intent);
+    }
 }

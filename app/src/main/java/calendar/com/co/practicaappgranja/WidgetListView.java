@@ -32,7 +32,7 @@ public class WidgetListView extends AppCompatActivity {
         listViewInfo.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(),array[i],Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),array[i],Toast.LENGTH_SHORT).show();
             }
         });
     }
